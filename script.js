@@ -36,19 +36,19 @@ async function checkWheather(city){
 
     switch(wheather_data.weather[0].main){
         case 'Clouds':
-            wheather_img.src = "forcasting/assests/cloud.png";
+            wheather_img.src = "cloud.png";
             break;
         case 'Clear':
-            wheather_img.src = "forcasting/assests/clear.png";
+            wheather_img.src = "clear.png";
             break;
         case 'Rain':
-            wheather_img.src = "D:\vscode\forcasting\assests\rain.png";
+            wheather_img.src = "rain.png";
             break;
         case 'Mist':
-            whather_img.src = "forcasting/assests/mist.png";
+            whather_img.src = "mist.png";
             break;
         case 'Snow':
-            wheather_img.src = "forcasting/assests/snow.png";
+            wheather_img.src = "snow.png";
             break;
 
     }
